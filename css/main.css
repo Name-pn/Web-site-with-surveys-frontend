@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: url("../images/grid.png");
+    font-size:20px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    background: chartreuse url("../images/grid_gray.png") repeat;
+    border: 4px solid black;
+}
+
+.navigation-item, .navigation-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation-item {
+    border: 4px solid azure;
+    background: aquamarine;
+    padding: 10px;
+}
+
+.navigation-item:hover {
+    padding:5px;
+    background: yellow;
+}
+
+.navigation-current {
+    background: coral;
+}
+
+.navigation-list {
+    vertical-align: middle;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.main p {
+    padding: 20px;
+    background: rgba(198, 184, 150, 0.5);
+}
+
+footer {
+    background: bisque;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tests {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.test {
+    background: rgba(198, 184, 150, 0.5);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+form {
+    background: rgba(198, 184, 150, 0.5);
+    margin: 10px;
+    text-align: center;
+}
+
+.tests div img {
+    width: 50%;
+    height: 50%;
+
+    border-radius: 50%;
+}
+
