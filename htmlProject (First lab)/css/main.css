@@ -36,8 +36,15 @@ header {
 
 .navigation-list {
     vertical-align: middle;
-    display: inline-block;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 .main p {
@@ -46,7 +53,7 @@ header {
 }
 
 footer {
-    background: bisque;
+    background: bisque url(../images/footer.png);
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,7 +74,8 @@ h1 {
 .test {
     background: rgba(198, 184, 150, 0.5);
     text-align: center;
-    padding-bottom: 40px;
+    list-style-type: none;
+    border: 1px solid black;
 }
 
 form {
@@ -76,10 +84,9 @@ form {
     text-align: center;
 }
 
-.tests div img {
+.tests .test img {
     width: 50%;
     height: 50%;
-
     border-radius: 50%;
 }
 

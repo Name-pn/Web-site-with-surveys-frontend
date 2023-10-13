@@ -1,0 +1,150 @@
+.brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.brand {
+    background: rgba(189, 250, 140, 0.5);
+    padding:10px;
+}
+
+.brand h2 + p, .brand h2 {
+    text-align: center;
+}
+
+.cadillac {
+    object-position: 0 0;
+    object-fit: none;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+}
+
+.audi {
+    object-fit: none;
+    object-position: -180px 0;
+    width: 160px;
+    height: 160px;
+}
+
+.lexus {
+    object-fit: none;
+    object-position: -370px 0;
+    width: 160px;
+    height: 160px;
+}
+
+.toyota {
+    object-fit: none;
+    object-position: -530px 0;
+    width: 110px;
+    height: 160px;
+}
+
+.mercedes-benz {
+    object-fit: none;
+    object-position: -665px 0;
+    width: 110px;
+    height: 160px;
+}
+
+.bmw {
+    object-fit: none;
+    object-position: -820px 0;
+    width: 120px;
+    height: 160px;
+}
+
+.subaru {
+    object-fit: none;
+    object-position: -50px -170px;
+    width: 100px;
+    height: 70px;
+}
+
+.land-rover {
+    object-fit: none;
+    object-position: -190px -170px;
+    width: 150px;
+    height: 80px;
+}
+
+.honda {
+    object-fit: none;
+    object-position: -505px -170px;
+    width: 150px;
+    height: 70px;
+}
+
+.nissan {
+    object-fit: none;
+    object-position: -660px -180px;
+    width: 150px;
+    height: 105px;
+}
+
+.chevrolet {
+    object-fit: none;
+    object-position: -15px -300px;
+    width: 150px;
+    height: 105px;
+}
+
+.infinity {
+    object-fit: none;
+    object-position: -225px -290px;
+    width: 80px;
+    height: 50px;
+}
+
+.skoda {
+    object-fit: none;
+    object-position: -375px -260px;
+    width: 110px;
+    height: 110px;
+}
+
+.mitsubishi {
+    object-fit: none;
+    object-position: -520px -290px;
+    width: 110px;
+    height: 100px;
+}
+
+.volkswagen {
+    object-fit: none;
+    object-position: -660px -315px;
+    width: 110px;
+    height: 100px;
+}
+
+.dodge {
+    object-fit: none;
+    object-position: -40px -400px;
+    width: 100px;
+    height: 100px;
+}
+
+.volvo {
+    object-fit: none;
+    object-position: -230px -402px;
+    width: 250px;
+    height: 100px;
+}
+
+.acura {
+    object-fit: none;
+    object-position: -555px -440px;
+    width: 50px;
+    height: 50px;
+}
+
+.opel {
+    object-fit: none;
+    object-position: -665px -440px;
+    width: 150px;
+    height: 150px;
+}
